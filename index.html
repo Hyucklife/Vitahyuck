@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>운동 페이지</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        .video-container {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .video-container iframe {
+            width: 100%;
+            max-width: 600px;
+            height: 340px;
+        }
+        .routine, .records {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>나의 운동 페이지</h1>
+        <p>운동 루틴, 개인 기록 및 유튜브 영상</p>
+    </header>
+
+    <section>
+        <h2>운동 루틴</h2>
+        <div class="routine">
+            <h3>주간 운동 계획</h3>
+            <ul>
+                <li>월요일: 스쿼트, 벤치프레스, 데드리프트</li>
+                <li>수요일: 오버헤드프레스, 풀업, 바벨 로우</li>
+                <li>금요일: 프론트 스쿼트, 인클라인 벤치프레스, 데드리프트</li>
+                <li>일요일: 고강도 인터벌 트레이닝 (HIIT)</li>
+            </ul>
+        </div>
+
+        <h2>개인 기록</h2>
+        <div class="records">
+            <h3>파워리프팅 PR (Personal Record)</h3>
+            <ul>
+                <li>스쿼트: 200kg</li>
+                <li>벤치프레스: 150kg</li>
+                <li>데드리프트: 250kg</li>
+            </ul>
+        </div>
+
+        <h2>유튜브 영상</h2>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/영상ID" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+</body>
+</html>
